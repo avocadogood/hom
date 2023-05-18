@@ -21,6 +21,7 @@ body{
 #com {
     width: 90%;
     padding: 20px 10px 10px;
+    margin-bottom: 10px;
     background-color: transparent;
     border: none;
     border-bottom: 1px solid #ffffff;
@@ -28,14 +29,21 @@ body{
 }
 
 #clock{
-    margin-top: 15px;
-    /* justify-content: center;
-    align-items: center; */
+    width: 90%;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-align: right;
+    /* justify-content: center; */
+    /* align-items: center; */
     background-color: transparent;
     border: none;
     border-bottom: 1px solid #ffffff;
     outline: none;
     font-size: 10px;
+}
+
+.int-area{
+    font-size: 13px;
 }
 
 .caption {
