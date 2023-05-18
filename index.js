@@ -1,5 +1,3 @@
-var button;
-
 window.onload = function(){
     // button=document.getElementById("btn");
     clock=document.getElementById("clock");
@@ -17,12 +15,3 @@ function x() {
       + now.getSeconds();
   clock.innerHTML = result;
 }
-
-// button.addEventListener('mouseenter', function() {
-//   button.classList.add('animated-button');
-// });
-
-// button.addEventListener('mouseleave', function() {
-//   button.classList.remove('animated-button');
-// });
-
