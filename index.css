@@ -10,9 +10,6 @@ body{
     background-size: cover;
 }
 
-.xx.jpg{
-    /* opacity: 10%; */
-}
 
 #wel {
     display: flex;
@@ -45,6 +42,7 @@ body{
 
 .int-area{
     font-size: 13px;
+    margin: 1px;
 }
 
 .caption {
@@ -57,13 +55,13 @@ body{
     text-decoration: none;
 }
 
-.btn-area {margin-top: 30px;}
+.btn-area {margin-top: 10px;}
 .btn-area button {
-    width: 100%; height: 30px;
+    width: 100%; height: 35px;
     background: #ffffff;
     font-size: 15px; color: #636363;
     border: none;
-    border-radius: 15px;
+    border-radius: 50px;
     cursor: pointer;
     
 }
