@@ -15,6 +15,9 @@ function x() {
       clock.innerHTML = result;
 }
 
+function popup(){
+  alert("지금은 회원 모집 기간이 아닙니다.");
+}
 
 window.onload = function(){
   // button=document.getElementById("btn");
